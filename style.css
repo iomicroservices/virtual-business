@@ -13,11 +13,17 @@ body {
     padding: 0;
 }
 
+
+// navbar section
 #nav-bar{
     position: sticky;
     top: 0;
     z-index: 10;
 }
+.navbar-brand img{
+    height: 40px;
+}
+
 
 //cover section css
 @media (min-width: 992px) {

@@ -15,7 +15,7 @@
   </head>
   <body>
 
-  <div id="header"></div>
+  <div id="nav-bar"></div>
   <script src="components/header.html"></script>
 
     
@@ -170,7 +170,7 @@
       // Load header template
       fetch('components/header.html')
           .then(response => response.text())
-          .then(html => document.getElementById('header').innerHTML = html);
+          .then(html => document.getElementById('nav-bar').innerHTML = html);
     </script>
 
     

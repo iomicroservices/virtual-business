@@ -317,7 +317,6 @@
     
     <script src="/assets/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
-    <script async src="/assets/js/masonry.pkgd.min.js">
     <script>
       // Load header template
       fetch('/components/header.html')
@@ -328,6 +327,7 @@
           .then(response => response.text())
           .then(html => document.getElementById('footer').innerHTML = html);
     </script>
+    <script async src="/assets/js/masonry.pkgd.min.js">
           
 
   </body>
